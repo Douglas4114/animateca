@@ -2,7 +2,7 @@
   "name": "meuapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://douglas4114.github.io/AnimeTECA",
+  "homepage": "https://douglas4114.github.io/animateca",
   "dependencies": {
     "@breezystack/lamejs": "^1.2.7",
     "@soundtouchjs/audio-worklet": "^2.1.1",
