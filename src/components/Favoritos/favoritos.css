@@ -1,0 +1,39 @@
+.fav-princ{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    padding: 0 10px;
+}
+.ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.li a{
+    text-decoration: none;
+}
+.button2{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}
+@media screen and (min-width : 68em) {
+    .fav-princ{
+        display: flex;
+    }
+    .li{
+        display: flex;
+        flex-direction: row;
+    }
+}

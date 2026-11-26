@@ -1,0 +1,89 @@
+.principal{
+    margin:0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100vw;       /* Largura da div */
+    overflow: auto;     /* Cria a barra apenas quando o conteúdo ultrapassar o limite */
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: black;
+}
+.link-sem-sublinhado{
+    text-decoration: none;
+    color: white;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.card-anime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.detalhes{
+    text-decoration: none;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+}
+.h2{
+    text-align: center;
+}
+@media screen and (min-width: 64em) {
+  .aside{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100vw;       /* Largura da div */
+    justify-content: center;
+  }
+  .link-sem-sublinhado:hover{
+    color: red;
+  }
+  .lista-animes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-anime {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+  .img {
+        width: 100px;
+        height: 140px;
+        object-fit: contain;
+    }
+    .h2 {
+        text-align: center;
+        font-size: 20px;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .detalhes {
+        margin-top: auto;
+    }
+}
