@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AnimeTECA/static/css/main.58c34097.css",
-    "main.js": "/AnimeTECA/static/js/main.1d4e96d0.js",
-    "index.html": "/AnimeTECA/index.html",
-    "main.58c34097.css.map": "/AnimeTECA/static/css/main.58c34097.css.map",
-    "main.1d4e96d0.js.map": "/AnimeTECA/static/js/main.1d4e96d0.js.map"
+    "main.css": "/animateca/static/css/main.58c34097.css",
+    "main.js": "/animateca/static/js/main.1d4e96d0.js",
+    "index.html": "/animateca/index.html",
+    "main.58c34097.css.map": "/animateca/static/css/main.58c34097.css.map",
+    "main.1d4e96d0.js.map": "/animateca/static/js/main.1d4e96d0.js.map"
   },
   "entrypoints": [
     "static/css/main.58c34097.css",
